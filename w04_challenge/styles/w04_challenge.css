@@ -1,0 +1,42 @@
+body {
+    background-color: #5ca1d7;
+    color: white;
+    width: 30%;
+    font-family: sans-serif;
+    text-align: center;
+    min-width: 200px;
+    margin: 0 auto;
+    line-height: 1em;
+}
+h1:hover {
+    color: black;
+}
+.smfont {
+    font-size: .55em;
+    font-family: serif;
+}
+.list {
+    text-align: left;
+    color: black;
+    padding-left: 1em;
+}
+.bold {
+    font-weight: bold;
+}
+img {
+    width: 50%;
+}
+blockquote {
+    font-family: serif;
+    font-size: 1.25em;
+    line-height: 1.25em;
+}
+p, ol {
+    font-size: .65em;
+}
+.reference {
+    color: black;
+    line-height: 1em;
+    margin: 0 auto;
+}
+
