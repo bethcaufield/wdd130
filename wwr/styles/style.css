@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +7,7 @@ nav a {
     text-align: center;
     color: #262626;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -21,6 +23,10 @@ main section {
 }
 body {
     background-color: #F3F7F8;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:rgba(134,179,185, .5);
@@ -32,14 +38,22 @@ nav a:hover {
 }
 .home-title {
     color: #191B50;
+    font-family: Merriweather, georgia, serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #7D8F55;
+    font-family: Lato, Helvetica, sans-serif;
 }
 .book, .join {
     background-color: #191B50;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #BCD5D8;
@@ -51,16 +65,22 @@ h4 {
 .msg {
     background-color: #556139;
     color: white;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: white;
 }
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #BCD5D8;
     color: #191B50;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color:#191B50;
@@ -81,4 +101,26 @@ footer p a:hover {
 }
 #hero-img {
     width: 100%;
+}
+h2 {
+    font-family: Merriweather, georgia, serif;
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.icon {
+    padding-top: 10px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #191B50;
+}
+main section img {
+    box-sizing: border-box;
 }
