@@ -155,10 +155,13 @@ main section img {
 }
 #hero-msg h1 {
     color: white;
+    text-shadow: 1px 1px 3px black;
+    padding-top: 10px;
 }
 #hero-msg h4 {
     color: white;
-    margin-top: -10px;
+    margin-top: -20px;
+    text-shadow: 1px 1px 3px black;
 }
 .home-grid {
     display: grid;
@@ -216,6 +219,7 @@ main section img {
     }
     #hero-msg h1 {
         color: #556139;
+        text-shadow: none;
     }
     .home-title {
         font-size: 25px;
