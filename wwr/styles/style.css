@@ -286,6 +286,7 @@ main section img {
     footer {
         margin-top: 25px;
     }
+    /* Media queries for rivers page */
     .about-rivers img {
         float: none;
         display: block;
