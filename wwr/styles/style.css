@@ -24,6 +24,7 @@ main section {
 }
 #background {
     height: 725px;
+    background-color: #BCD5D8;
 }
 body {
     background-color: #F3F7F8;
@@ -64,9 +65,7 @@ h4 {
     background-color: #BCD5D8;
     color: #262626;
 }
-#background {
-    background-color: #BCD5D8;
-}
+
 .msg {
     background-color: #556139;
     color: white;
@@ -196,6 +195,55 @@ main section img {
     grid-row: 6/7; 
     box-shadow: 5px 5px 10px #556139;
 }
+/* Rivers page */
+
+#river-intro p {
+    text-align: center;
+    line-height: 1.5em;
+    margin: 100px 0;
+    padding: 0 100px;
+}
+.about-rivers img {
+    width: 50%;
+    min-width: 350px;
+    max-width: 600px;
+    border: 10px solid #191B50;
+    box-shadow: 5px 5px 10px black;
+}
+.about-rivers p {
+    text-align: justify;
+}
+.about-rivers h2 {
+    color: #556139;
+    text-align: left;
+}
+.idaho-river img, .arizona-river img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.utah-river img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.idaho-river {
+    margin: 100px 0 150px 0;
+    padding: 60px;
+}
+.utah-river {
+    margin: 150px 0;
+    padding: 60px;
+}
+.arizona-river {
+    margin: 150px 0;
+    padding: 60px;
+}
+.idaho-river, .arizona-river {
+    background: #BCD5D8;
+}
+
+/* Media queries */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;

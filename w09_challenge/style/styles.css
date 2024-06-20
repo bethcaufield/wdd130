@@ -6,7 +6,7 @@ body {
 #roundedBorder {
     position: relative;
     width: 30%;
-    max-width: 400px;
+    max-width: 300px;
     margin: 0 auto;
     border: #1e1e1e solid 10px;
     border-radius: 25px;
@@ -44,6 +44,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    row-gap: 5px;
     margin: auto;
     background-color: #3f5b8b;
     color: white;
@@ -52,9 +53,20 @@ footer {
     align-content: end;
     margin: 0px;
     font-size: 1.5em;
+    height: 100%;
+    padding-top: 10px;
 }
 .four, .five, .six {
     align-self: start;
-    margin-top: 0px;
+    margin: 0px;
     font-size: .75em;
+    height: 100%;
+    padding: 5px 0px;
+}
+.two, .three, .five, .six {
+    border-left: .05px solid #737982;
+    height: 100%;
+}
+.sup-font {
+    font-size: .5em;
 }
