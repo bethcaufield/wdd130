@@ -196,7 +196,6 @@ main section img {
     box-shadow: 5px 5px 10px #556139;
 }
 /* Rivers page */
-
 #river-intro p {
     text-align: center;
     line-height: 1.5em;
@@ -236,7 +235,7 @@ main section img {
     padding: 60px;
 }
 .arizona-river {
-    margin: 150px 0;
+    margin: 1px 0;
     padding: 60px;
 }
 .idaho-river, .arizona-river {
@@ -287,5 +286,24 @@ main section img {
     footer {
         margin-top: 25px;
     }
+    .about-rivers img {
+        float: none;
+        display: block;
+        margin: 20px auto;
+        min-width: 0;
+        width: 100%;
+    }
+    .about-rivers h2 {
+        text-align: center;
+    }
+    .about-rivers p {
+        text-align: center;
+     }
+     #river-intro p {
+        margin: 50px 0;
+     }
+     .idaho-river, .utah-river, .arizona-river {
+        margin: 50px 0;
+     }
 }
             
