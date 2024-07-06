@@ -91,6 +91,12 @@ body {
     background-color: #636E72;
     color: white;
 }
+.learn {
+    margin-right: 40px;
+    }
+.find {
+    margin-left: 40px;
+}
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -126,6 +132,7 @@ body {
 .who_benefits {
     grid-column: 1/5;
     grid-row: 8/11;
+
 }
 .who_benefits_img {
     grid-column: 5/11;
@@ -138,7 +145,7 @@ body {
 }
 .home-grid p {
     line-height: 1.4em;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 .who_benefits h3 {
     margin-left: 40px;
