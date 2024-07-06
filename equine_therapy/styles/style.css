@@ -102,7 +102,7 @@ body {
 }
 .home-grid img {
     min-width: 350px;
-    max-width: 650px;
+    max-width: 600px;
 }
 .whats_et {
     grid-column: 7/11;
@@ -150,7 +150,7 @@ body {
 .who_benefits ul {
     text-align: left;
     padding-left: 5em;
-    margin-top: -20px;
+    margin-top: -40px;
 }
 .whats_et_img, .whats_et, .who_benefits, .who_benefits_img {
     margin: 125px 0;
