@@ -107,8 +107,9 @@ body {
     place-self: center;
 }
 .home-grid img {
-    min-width: 350px;
-    max-width: 600px;
+    min-width: 200px;
+    max-width: 540px;
+    width: 90%;
 }
 .whats_et {
     grid-column: 7/11;
@@ -138,6 +139,7 @@ body {
     grid-column: 5/11;
     grid-row: 8/11;
     place-self: center;
+    width: 90%;
 }
 .home-grid h3 {
     color: #4A4036;
@@ -189,3 +191,54 @@ footer a:hover {
 footer p a:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h1 {
+        color: #4A4036;
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+    #hero-msg h4 {
+        color: #946652;
+    }
+    .home-title {
+        font-size: 26px;
+    }
+    footer {
+        margin-top: 25px;
+    }
+.whats_et_img {
+    margin: 40px 40px 0 50px;
+}
+.whats_et {
+    margin: 50px 0 150px 40px;
+}
+.who_benefits_img {
+    margin: 150px 40px 0 50px;
+}
+.who_benefits {
+    margin: 50px 40px 150px 0;
+}
+.who_benefits p {
+    text-align: center;
+    padding-bottom: 40px;
+}
+}
+            
