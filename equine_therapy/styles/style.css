@@ -108,6 +108,9 @@ body {
     grid-column: 7/11;
     grid-row: 2/5;
 }
+.whats_et p, .whats_et h3 {
+    margin-right: 50px;
+}
 .discover {
     grid-column: 1/11;
     grid-row: 6/7;
@@ -136,14 +139,17 @@ body {
 .home-grid p {
     line-height: 1.4em;
     padding-bottom: 40px;
-    margin: 0 20px;
+}
+.who_benefits h3 {
+    margin-left: 40px;
 }
 .who_benefits p {
     text-align: left;
+    margin-left: 40px;
 }
 .who_benefits ul {
     text-align: left;
-    padding-left: 4em;
+    padding-left: 5em;
     margin-top: -20px;
 }
 .whats_et_img, .whats_et, .who_benefits, .who_benefits_img {
