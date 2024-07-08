@@ -33,30 +33,25 @@ header img {
     text-align: center;
     color: #4A4036;
 }
-#hero-img {
+#hero {
+    position: relative;
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: -125px;
+    z-index: -1;
+}
+#hero img {
+    vertical-align: middle;
     width: 100%;
 }
-#hero {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -125px;
-}
-#hero-box {
-   grid-column: 1/4;
-   grid-row: 1/6;
-   z-index: -1;
-}
-#banner {
-    grid-column: 1/4;
-    grid-row: 5/6;
-    margin-bottom: 50px;
-    background-color:rgba(224,218,208, .8);
-}
-#hero-msg {
-    grid-column: 2/3;
-    grid-row: 5/6;
-    padding-bottom: 40px;
-}
+#hero #hero-msg{
+    position: absolute;
+    bottom: 45px;
+    background: rgb(224, 218, 208); /* Fallback color */
+    background: rgba(224,218,208, .8);
+    color: #4A4036;
+    width: 100%;
+  }
 #hero-msg h4 {
     margin-top: -20px;
     font-style: italic;
@@ -192,10 +187,17 @@ footer p a:hover {
 }
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    .home-grid {
         display: block;
         height: auto;
     }
+    #hero #hero-msg{
+        position: static;
+        bottom: 45px;
+        background: none;
+        color: #4A4036;
+        width: 100%;
+      }
     nav, footer {
         flex-direction: column;
     }
@@ -206,38 +208,41 @@ footer p a:hover {
     #hero {
         margin-top: 0;
     }
-    #hero-msg {
-        margin-top: 0;
-    }
     #hero-msg h1 {
         color: #4A4036;
         padding-bottom: 10px;
         padding-top: 20px;
+        margin-top: 50px;
     }
     #hero-msg h4 {
         color: #946652;
+        padding: 0 20px;
+        margin-bottom: -10px;
     }
     .home-title {
         font-size: 26px;
     }
+    .whats_et h3 {
+        margin-top: -75px;
+    }
     footer {
         margin-top: 25px;
     }
-.whats_et_img {
-    margin: 40px 40px 0 50px;
-}
-.whats_et {
-    margin: 50px 0 150px 40px;
-}
-.who_benefits_img {
-    margin: 150px 40px 0 50px;
-}
-.who_benefits {
-    margin: 50px 40px 150px 0;
-}
-.who_benefits p {
-    text-align: center;
-    padding-bottom: 40px;
-}
+    .whats_et_img {
+        text-align: center;
+    }
+    .whats_et {
+        margin: 50px 0 150px 40px;
+    }
+    .who_benefits_img {
+        margin: 150px 40px 0 50px;
+    }
+    .who_benefits {
+        margin: 50px 40px 150px 0;
+    }
+    .who_benefits p {
+        text-align: center;
+        padding-bottom: 40px;
+    }
 }
             
