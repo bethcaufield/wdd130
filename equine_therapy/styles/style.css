@@ -193,6 +193,25 @@ footer p a:hover {
     text-align: center;
     color: #946652;
 }
+.tabcontent {
+    display: none;
+}
+.tab {
+    text-align: center;
+}
+.tab img {
+opacity: 0.7; 
+cursor: pointer; 
+width: 30%;
+margin: 0 5px;
+}
+.tab img:hover {
+opacity: 1;
+}
+.tab img.active {
+    border: 5px solid #636E72;
+    opacity: 1;
+  }
 
 @media screen and (max-width: 900px) {
     .home-grid {
