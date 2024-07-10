@@ -138,7 +138,7 @@ body {
     place-self: center;
     width: 90%;
 }
-h3 {
+.gifts h3 {
     color: #4A4036;
     font-family: "Libre Baskerville", Georgia, Serif;
 }
@@ -195,6 +195,10 @@ footer p a:hover {
 }
 .use_horses p {
     padding: 0 40px;
+    line-height: 1.4em;
+}
+.small_screen_msg {
+    display: none;
 }
 .find_therapist h2, .gifts h2 {
     text-align: center;
@@ -243,6 +247,9 @@ footer p a:hover {
 }
 .find_therapist p {
     padding-bottom: 40px;
+}
+.attune_img, .externalize_img, .teach_img {
+    display: none;
 }
 
 @media screen and (max-width: 900px) {
@@ -302,6 +309,27 @@ footer p a:hover {
     .who_benefits p {
         text-align: center;
         padding-bottom: 40px;
+    }
+    /* Why Use Horses page - media*/
+    .tabcontent {
+        display: block;
+    }
+    .tablinks {
+        display: none;
+    }
+    .attune_img, .externalize_img, .teach_img {
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .gifts h3 {
+        margin-top: 50px;
+    }
+    .small_screen_msg {
+        display: inline;
+    }
+    .reg_screen_msg {
+        display: none;
     }
 }
             
