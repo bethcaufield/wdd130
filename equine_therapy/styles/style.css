@@ -401,8 +401,9 @@ footer p a:hover {
         display: block;
     }
     .therapist_note {
-        margin: 40px 10px;
+        margin: 40px auto;
         font-size: 1em;
+        padding: 20px 40px;
     }
 }
             
