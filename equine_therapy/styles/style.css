@@ -339,7 +339,7 @@ footer p a:hover {
         margin-bottom: -10px;
     }
     .home-title {
-        font-size: 26px;
+        font-size: 28px;
     }
     .whats_et h3 {
         margin-top: -75px;
@@ -364,6 +364,9 @@ footer p a:hover {
         padding-bottom: 40px;
     }
     /* Why Use Horses page - media*/
+    .why-horses-title {
+        font-size: 28px;
+    }
     .tabcontent {
         display: block;
     }
@@ -397,6 +400,9 @@ footer p a:hover {
     .therapist_note {
         margin: 40px auto;
         font-size: 1em;
+    }
+    .find-therapist-h1 {
+        font-size: 28px;
     }
 }
             
