@@ -251,6 +251,46 @@ footer p a:hover {
 .attune_img, .externalize_img, .teach_img {
     display: none;
 }
+/* Finding Therapist Page */
+.find_therapist_h1 {
+    margin-top: 40px;
+    text-align: center;
+}
+.therapist_grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    margin: 0 40px 0px 40px;
+    max-width: 1600px;
+}
+.therapist_grid img {
+    min-width: 250px;
+    max-width: 540px;
+    width: 95%;
+    margin-right: 40px;
+}
+.therapist_content {
+    grid-column: 1/7;
+    grid-row: 1/2;
+    place-self: center;
+}
+.therapist_img {
+    grid-column: 7/11;
+    grid-row: 1/2;
+    place-self: center;
+}
+.therapist_content p, .therapist_content ul {
+    text-align: left;
+    line-height: 1.5em;
+}
+
+.therapist_note {
+    margin: 50px auto;
+    padding: 20px 100px;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: .9em;
+}
+
 
 @media screen and (max-width: 900px) {
     .home-grid {
@@ -330,6 +370,17 @@ footer p a:hover {
     }
     .reg_screen_msg {
         display: none;
+    }
+    .find_therapist {
+        margin: 0 40px;
+    }
+    /* Finding Therapist Page */
+    .therapist_grid {
+        display: block;
+    }
+    .therapist_note {
+        margin: 60px auto;
+        font-size: 1em;
     }
 }
             
