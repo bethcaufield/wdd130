@@ -26,17 +26,47 @@
     <main>
         <h1 class="find_therapist_h1">Finding an Equine Therapist</h1>
         <div class="therapist_grid">
-            <section class="therapist_img">
-                <img src="images/therapist.jpg" alt="Therapist with Horse">
-            </section>
-            <section class="therapist_content">
-                <p>Ready to get started? If you or someone you know would like to participate in Equine Therapy, there are a number of ways to explore options near you. Here are a few suggestions to get you started:</p>
-                <ul>
-                    <li>Performing a search on <a href="https://www.psychologytoday.com/" target="_blank" rel="noopener noreferrer"><b>PsychologyToday.com</b></a> for an "Equine Therapist"</li>
-                    <li>Performing a search on <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer"><b>Google</b></a> or other search engine for an "Equine Therapist near [preferred location]"</li>
-                    <li>Searching on <a href="https://my.eagala.org/programs;d=None" target="_blank" rel="noopener noreferrer"><b>EAGALA's website</b></a> (Equine-Assisted Growth and Learning)</li>
-                </ul>
-            </section>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="images/therapist.jpg" alt="Therapist with Horse">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/therapist2.jpg" alt="Therapist2 with Horse">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/therapist3.jpg" alt="Therapist3 with Horse">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/therapist4.jpg" alt="Therapist4 with Horse">
+                </div> 
+                <div class="mySlides fade">
+                    <img src="images/therapist5.jpg" alt="Therapist5 with Horse">
+                </div> 
+                <div class="mySlides fade">
+                    <img src="images/therapist6.jpg" alt="Therapist6 with Horse">
+                </div> 
+                <div class="mySlides fade">
+                    <img src="images/therapist7.jpg" alt="Therapist7 with Horse">
+                </div>
+                <div style="text-align:center">
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>  
+            </div>
+                <section class="therapist_content">
+                    <p>Ready to get started? If you or someone you know would like to participate in Equine Therapy, there are a number of ways to explore options near you. Here are a few suggestions to get you started:</p>
+                    <ul>
+                        <li>Performing a search on <a href="https://www.psychologytoday.com/" target="_blank" rel="noopener noreferrer"><b>PsychologyToday.com</b></a> for an "Equine Therapist"</li>
+                        <li>Performing a search on <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer"><b>Google</b></a> or other search engine for an "Equine Therapist near [preferred location]"</li>
+                        <li>Searching on <a href="https://my.eagala.org/programs;d=None" target="_blank" rel="noopener noreferrer"><b>EAGALA's website</b></a> (Equine-Assisted Growth and Learning)</li>
+                    </ul>
+                </section>
+            </div>
         </div>
         <div class="therapist_note"><b><em>Please note:</b> If an individual has an extreme fear of horses or has limitations that may prevent them from safely interacting with horses, equine therapy may not be the best option. It’s recommended to speak with a mental health professional (traditional or equine therapist).</em></div>
     </main>
@@ -50,5 +80,26 @@
         </a>
     </footer>
 </div>
+<script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 5000); // Change image every 2 seconds
+    }
+    </script>
 </body>
 </html>
