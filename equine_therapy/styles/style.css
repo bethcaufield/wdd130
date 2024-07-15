@@ -392,19 +392,17 @@ footer p a:hover {
     }
     /* Finding Therapist Page */
     .find_therapist_h1 {
-        font-size: .9em;
+        margin: 0 20px;
+        font-size: 28px;
+        margin-top: 40px;
+        margin-bottom: 20px;
     }
     .therapist_grid {
         display: block;
     }
     .therapist_note {
-        margin: 40px auto;
+        margin: 40px 10px;
         font-size: 1em;
-    }
-    .find_therapist_h1 {
-        font-size: 28px;
-        margin-top: 40px;
-        margin-bottom: 20px;
     }
 }
             
